@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "WSDataBase.h"
+NSString *const WSPXAPPConfigurationWidgetSchemeName = @"widget";
+NSString *const WSPXAPPConfigurationApplicationGroupsPrimary = @"group.com.chinanetcenter.Widget.Documents";
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,30 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[WSDataBase alloc] init];
+    NSUserDefaults *userDefault = [[NSUserDefaults alloc] initWithSuiteName:WSPXAPPConfigurationApplicationGroupsPrimary];
+    [userDefault setObject:@"新年对联" forKey:@"Title"];
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    NSString *prefix = @"ToDayWidget://action=";
+    if ([[url absoluteString] rangeOfString:prefix].location != NSNotFound) {
+        NSString *action = [[url absoluteString] substringFromIndex:prefix.length];
+        if ([action isEqualToString:@"LogOne"]) {
+            NSLog(@"application logOne");
+            self.window.rootViewController.view.backgroundColor = [UIColor redColor];
+        } else if ([action isEqualToString:@"LogTwo"]) {
+            NSLog(@"application logTwo");
+            self.window.rootViewController.view.backgroundColor = [UIColor greenColor];
+        }
+        
+    }
+    //currently only opens URLs of the Widget scheme type.
+//    if ([url.scheme isEqualToString:WSPXAPPConfigurationWidgetSchemeName]) {
+//        NSLog(@"haha");
+//    }
     return YES;
 }
 

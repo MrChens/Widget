@@ -4,15 +4,35 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>SDWebImageKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>TodayWidget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Widget.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>B651F0451C635CB400117CF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B651F0631C635D1600117CF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B69B94261C64857A007E12EA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
