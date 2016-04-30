@@ -1,0 +1,34 @@
+containing:file:///private/var/mobile/Containers/Shared/AppGroup/001EBCB0-1FEF-46BA-B8EC-5BAC73ACE603/Library/Caches/good
+file:           ///private/var/mobile/Containers/Shared/AppGroup/001EBCB0-1FEF-46BA-B8EC-5BAC73ACE603/Library/Caches/good
+
+app group:
+/private/var/mobile/Containers/Shared/AppGroup/001EBCB0-1FEF-46BA-B8EC-5BAC73ACE603
+bundle:
+/var/mobile/Containers/Bundle/Application/D6815696-58E9-48DB-86AF-8185F9057444/Widget.app
+documents:
+/var/mobile/Containers/Data/Application/FDE932B8-451E-4D7B-9FFA-1370014C3A2A/Documents
+
+
+
+today1（非widget） : /var/mobile/Containers/Data/Application/DB1AC850-E3D5-4CA3-9A30-505A2CB2AC21/Documents/WSDatabase.db
+today2（widget）   : /var/mobile/Containers/Data/PluginKitPlugin/1944E6C5-F150-4F09-8FB9-A176AF716BA4/Documents/WSDatabase.db
+
+
+
+
+app group:
+	/private/var/mobile/Containers/Shared/AppGroup/001EBCB0-1FEF-46BA-B8EC-5BAC73ACE603
+bundle:
+	/private/var/mobile/Containers/Bundle/Application/D6815696-58E9-48DB-86AF-8185F9057444/Widget.app/PlugIns/TodayWidget.appex
+documents:
+	/var/mobile/Containers/Data/PluginKitPlugin/ADA47A90-744D-42BF-A5C8-BEA4C70A3EB1/Documents
+
+
+
+没有使用widget的app的db路径
+/Users/chenshilong/Library/Developer/CoreSimulator/Devices/3ACF1A4C-02EF-412A-BAE8-75521F5BA9C9/data/Containers/Data/Application/3020D31C-3318-421D-BA03-A1128C6E69F5/Documents/WSDatabase.db
+
+使用了widget的app  在app中的db路径
+/Users/chenshilong/Library/Developer/CoreSimulator/Devices/3ACF1A4C-02EF-412A-BAE8-75521F5BA9C9/data/Containers/Data/Application/4B0EEDDA-373C-4D80-BD44-F0405C014B64/Documents/WSDatabase.db
+使用了widget的app 在widget中的db路径
+toDayDbPath:/Users/chenshilong/Library/Developer/CoreSimulator/Devices/3ACF1A4C-02EF-412A-BAE8-75521F5BA9C9/data/Containers/Data/PluginKitPlugin/DE8F96B2-831A-4A1D-AA56-20A7149F9095/Documents/WSDatabase.db

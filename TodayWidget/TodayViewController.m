@@ -28,8 +28,8 @@ NSString *const WSPXAPPConfigurationApplicationGroupsPrimary = @"group.com.china
 
     self.leftLabel.text = @"心\n想\n事\n成";
     self.rightLabel.text = @"万\n事\n如\n意";
-   [[WSDataBase alloc] init];
-
+    WSDataBase *dataBase = [[WSDataBase alloc] init];
+    [dataBase createDB];
     
     NSUserDefaults *userDefault = [[NSUserDefaults alloc] initWithSuiteName:WSPXAPPConfigurationApplicationGroupsPrimary];
     NSString *nickName = [userDefault objectForKey:@"Title"];
@@ -105,20 +105,21 @@ NSString *const WSPXAPPConfigurationApplicationGroupsPrimary = @"group.com.china
 }
 
 - (BOOL)saveTextByNSFileManager {
-    NSError *err = nil;
-    NSURL *containerURL = [[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:WSPXAPPConfigurationApplicationGroupsPrimary];
-    containerURL = [containerURL URLByAppendingPathComponent:@"Library/Caches/good"];
-    NSLog(@"todayUrl:%@",containerURL);
-    NSString *value = @"test";
-    BOOL result = [value writeToURL:containerURL atomically:YES encoding:NSUTF8StringEncoding error:&err];
-    
-    if (!result) {
-        NSLog(@"错误:%@", err);
-    } else {
-        NSLog(@"save value:%@ success", value);
-    }
-    
-    return result;
+//    NSError *err = nil;
+//    NSURL *containerURL = [[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:WSPXAPPConfigurationApplicationGroupsPrimary];
+//    containerURL = [containerURL URLByAppendingPathComponent:@"Library/Caches/good"];
+//    NSLog(@"todayUrl:%@",containerURL);
+//    NSString *value = @"test";
+//    BOOL result = [value writeToURL:containerURL atomically:YES encoding:NSUTF8StringEncoding error:&err];
+//    
+//    if (!result) {
+//        NSLog(@"错误:%@", err);
+//    } else {
+//        NSLog(@"save value:%@ success", value);
+//    }
+//    
+//    return result;
+    return YES;
 }
 - (void)logAppPath
 {

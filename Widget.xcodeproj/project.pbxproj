@@ -49,6 +49,7 @@
 		B69B94FB1C64A03C007E12EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B69B94F81C64A03C007E12EA /* Main.storyboard */; };
 		B69B94FC1C64A03C007E12EA /* RWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69B94FA1C64A03C007E12EA /* RWViewController.m */; };
 		B69B953F1C64A7D0007E12EA /* libRWUIControls.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B69B953C1C64A787007E12EA /* libRWUIControls.a */; };
+		B6B256471C7575C00055DCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B651F0551C635CB400117CF3 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -494,6 +495,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B69B93EF1C647BC0007E12EA /* avatar.jpg in Resources */,
+				B6B256471C7575C00055DCEC /* Assets.xcassets in Resources */,
 				B651F06E1C635D1700117CF3 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

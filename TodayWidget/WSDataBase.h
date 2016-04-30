@@ -19,7 +19,7 @@
 }
 @property (nonatomic, copy) NSString *dbPath;
 
-
+-(void)createDB;
 
 
 

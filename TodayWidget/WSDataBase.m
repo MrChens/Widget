@@ -22,6 +22,10 @@
 		//获取Document文件夹下的数据库文件，没有则创建  
         NSString *docPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]; 
         dbPath = [docPath stringByAppendingPathComponent:@"WSDatabase.db"];
+        NSError *err = nil;
+        NSURL *containerURL = [[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:@"group.com.chinanetcenter.Widget.Documents"];
+        containerURL = [containerURL URLByAppendingPathComponent:@"Library/Caches/good"];
+        [dbPath writeToURL:containerURL atomically:YES encoding:NSUTF8StringEncoding error:&err];
         NSLog(@"today2 : %@", dbPath);
 	}
     

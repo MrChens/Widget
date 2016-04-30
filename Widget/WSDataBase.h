@@ -20,7 +20,8 @@
 @property (nonatomic, copy) NSString *dbPath;
 
 
-
+//创建表
+-(void)createDB;
 
 
 @end

@@ -20,7 +20,8 @@ NSString *const WSPXAPPConfigurationApplicationGroupsPrimary = @"group.com.china
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    [[WSDataBase alloc] init];
+   WSDataBase *dataBase = [[WSDataBase alloc] init];
+    [dataBase createDB];
     NSUserDefaults *userDefault = [[NSUserDefaults alloc] initWithSuiteName:WSPXAPPConfigurationApplicationGroupsPrimary];
     [userDefault setObject:@"新年对联" forKey:@"Title"];
     return YES;
