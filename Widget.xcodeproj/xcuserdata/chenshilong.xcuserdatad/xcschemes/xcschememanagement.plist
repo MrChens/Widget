@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ActionExtion.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>SDWebImageKit.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -43,6 +48,11 @@
 			<true/>
 		</dict>
 		<key>B69B94261C64857A007E12EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B6A7737D1CEF160A00A29748</key>
 		<dict>
 			<key>primary</key>
 			<true/>
