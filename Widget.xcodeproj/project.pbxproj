@@ -53,6 +53,18 @@
 		B6A773851CEF160A00A29748 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A773831CEF160A00A29748 /* MainInterface.storyboard */; };
 		B6A773891CEF160A00A29748 /* ActionExtion.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B6A7737E1CEF160A00A29748 /* ActionExtion.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B6B256471C7575C00055DCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B651F0551C635CB400117CF3 /* Assets.xcassets */; };
+		B6BE24481CF2B2F40064E797 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6BE24471CF2B2F40064E797 /* music.mp3 */; };
+		B6BE244A1CF2B32D0064E797 /* pdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B6BE24491CF2B32D0064E797 /* pdf.pdf */; };
+		B6BE244C1CF2B3D30064E797 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BE244B1CF2B3D30064E797 /* image.png */; };
+		B6BE244E1CF2B4100064E797 /* video.mov in Resources */ = {isa = PBXBuildFile; fileRef = B6BE244D1CF2B4100064E797 /* video.mov */; };
+		B6BE24531CF2D23E0064E797 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BE24521CF2D23E0064E797 /* QuickLook.framework */; };
+		B6BE24591CF2D33A0064E797 /* WSQLPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BE24581CF2D33A0064E797 /* WSQLPreviewController.m */; };
+		B6BE245C1CF2EF8C0064E797 /* WSDocInteractionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BE245B1CF2EF8C0064E797 /* WSDocInteractionTableViewController.m */; };
+		B6BE24611CF2F1430064E797 /* HTML Document.html in Resources */ = {isa = PBXBuildFile; fileRef = B6BE245D1CF2F1430064E797 /* HTML Document.html */; };
+		B6BE24621CF2F1430064E797 /* Image Document.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6BE245E1CF2F1430064E797 /* Image Document.jpg */; };
+		B6BE24631CF2F1430064E797 /* PDF Document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B6BE245F1CF2F1430064E797 /* PDF Document.pdf */; };
+		B6BE24641CF2F1430064E797 /* Text Document.txt in Resources */ = {isa = PBXBuildFile; fileRef = B6BE24601CF2F1430064E797 /* Text Document.txt */; };
+		B6BE24681CF3017B0064E797 /* DirectoryWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BE24671CF3017B0064E797 /* DirectoryWatcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -199,6 +211,21 @@
 		B6A773841CEF160A00A29748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		B6A773861CEF160A00A29748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6A7738E1CEF170200A29748 /* ActionExtion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ActionExtion.entitlements; sourceTree = "<group>"; };
+		B6BE24471CF2B2F40064E797 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		B6BE24491CF2B32D0064E797 /* pdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pdf.pdf; sourceTree = "<group>"; };
+		B6BE244B1CF2B3D30064E797 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		B6BE244D1CF2B4100064E797 /* video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = video.mov; sourceTree = "<group>"; };
+		B6BE24521CF2D23E0064E797 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		B6BE24571CF2D33A0064E797 /* WSQLPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSQLPreviewController.h; sourceTree = "<group>"; };
+		B6BE24581CF2D33A0064E797 /* WSQLPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSQLPreviewController.m; sourceTree = "<group>"; };
+		B6BE245A1CF2EF8C0064E797 /* WSDocInteractionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDocInteractionTableViewController.h; sourceTree = "<group>"; };
+		B6BE245B1CF2EF8C0064E797 /* WSDocInteractionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDocInteractionTableViewController.m; sourceTree = "<group>"; };
+		B6BE245D1CF2F1430064E797 /* HTML Document.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "HTML Document.html"; sourceTree = "<group>"; };
+		B6BE245E1CF2F1430064E797 /* Image Document.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image Document.jpg"; sourceTree = "<group>"; };
+		B6BE245F1CF2F1430064E797 /* PDF Document.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PDF Document.pdf"; sourceTree = "<group>"; };
+		B6BE24601CF2F1430064E797 /* Text Document.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Text Document.txt"; sourceTree = "<group>"; };
+		B6BE24661CF3017B0064E797 /* DirectoryWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectoryWatcher.h; sourceTree = "<group>"; };
+		B6BE24671CF3017B0064E797 /* DirectoryWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectoryWatcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +233,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6BE24531CF2D23E0064E797 /* QuickLook.framework in Frameworks */,
 				B6018F2C1C70252D00591838 /* libsqlite3.tbd in Frameworks */,
 				B69B953F1C64A7D0007E12EA /* libRWUIControls.a in Frameworks */,
 			);
@@ -273,6 +301,7 @@
 				B651F0681C635D1700117CF3 /* TodayWidget */,
 				B6A7737F1CEF160A00A29748 /* ActionExtion */,
 				B651F0651C635D1700117CF3 /* Frameworks */,
+				B6BE24451CF2B2D50064E797 /* Resource */,
 				B651F0471C635CB400117CF3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -299,7 +328,7 @@
 				B651F04D1C635CB400117CF3 /* AppDelegate.m */,
 				B69B95371C64A787007E12EA /* RWUIControls.xcodeproj */,
 				B69B94F71C64A03C007E12EA /* DevApp */,
-				B69B93EA1C647557007E12EA /* avatar.jpg */,
+				B6BE24651CF301360064E797 /* AppleCode */,
 				B651F0551C635CB400117CF3 /* Assets.xcassets */,
 				B651F0571C635CB400117CF3 /* LaunchScreen.storyboard */,
 				B651F05A1C635CB400117CF3 /* Info.plist */,
@@ -311,6 +340,7 @@
 		B651F0491C635CB400117CF3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B69B93EA1C647557007E12EA /* avatar.jpg */,
 				B651F04A1C635CB400117CF3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -319,6 +349,7 @@
 		B651F0651C635D1700117CF3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B6BE24521CF2D23E0064E797 /* QuickLook.framework */,
 				B6018F2B1C70252D00591838 /* libsqlite3.tbd */,
 				B651F0661C635D1700117CF3 /* NotificationCenter.framework */,
 			);
@@ -387,6 +418,10 @@
 				B69B94F81C64A03C007E12EA /* Main.storyboard */,
 				B69B94F91C64A03C007E12EA /* RWViewController.h */,
 				B69B94FA1C64A03C007E12EA /* RWViewController.m */,
+				B6BE24571CF2D33A0064E797 /* WSQLPreviewController.h */,
+				B6BE24581CF2D33A0064E797 /* WSQLPreviewController.m */,
+				B6BE245A1CF2EF8C0064E797 /* WSDocInteractionTableViewController.h */,
+				B6BE245B1CF2EF8C0064E797 /* WSDocInteractionTableViewController.m */,
 			);
 			path = DevApp;
 			sourceTree = "<group>";
@@ -409,6 +444,30 @@
 				B6A773861CEF160A00A29748 /* Info.plist */,
 			);
 			path = ActionExtion;
+			sourceTree = "<group>";
+		};
+		B6BE24451CF2B2D50064E797 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B6BE245D1CF2F1430064E797 /* HTML Document.html */,
+				B6BE245E1CF2F1430064E797 /* Image Document.jpg */,
+				B6BE245F1CF2F1430064E797 /* PDF Document.pdf */,
+				B6BE24601CF2F1430064E797 /* Text Document.txt */,
+				B6BE244D1CF2B4100064E797 /* video.mov */,
+				B6BE24491CF2B32D0064E797 /* pdf.pdf */,
+				B6BE24471CF2B2F40064E797 /* music.mp3 */,
+				B6BE244B1CF2B3D30064E797 /* image.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B6BE24651CF301360064E797 /* AppleCode */ = {
+			isa = PBXGroup;
+			children = (
+				B6BE24661CF3017B0064E797 /* DirectoryWatcher.h */,
+				B6BE24671CF3017B0064E797 /* DirectoryWatcher.m */,
+			);
+			path = AppleCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -549,10 +608,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6BE244E1CF2B4100064E797 /* video.mov in Resources */,
+				B6BE24631CF2F1430064E797 /* PDF Document.pdf in Resources */,
+				B6BE24481CF2B2F40064E797 /* music.mp3 in Resources */,
 				B69B93EB1C647557007E12EA /* avatar.jpg in Resources */,
+				B6BE244A1CF2B32D0064E797 /* pdf.pdf in Resources */,
+				B6BE24611CF2F1430064E797 /* HTML Document.html in Resources */,
+				B6BE24621CF2F1430064E797 /* Image Document.jpg in Resources */,
 				B651F0591C635CB400117CF3 /* LaunchScreen.storyboard in Resources */,
 				B651F0561C635CB400117CF3 /* Assets.xcassets in Resources */,
 				B69B94FB1C64A03C007E12EA /* Main.storyboard in Resources */,
+				B6BE244C1CF2B3D30064E797 /* image.png in Resources */,
+				B6BE24641CF2F1430064E797 /* Text Document.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +654,7 @@
 				B69B93D91C647236007E12EA /* NSData+ImageContentType.m in Sources */,
 				B6018F241C7023DB00591838 /* FMDatabasePool.m in Sources */,
 				B69B93DF1C647236007E12EA /* SDWebImageManager.m in Sources */,
+				B6BE24591CF2D33A0064E797 /* WSQLPreviewController.m in Sources */,
 				B6018F2A1C70240300591838 /* WSDataBase.m in Sources */,
 				B69B93DD1C647236007E12EA /* SDWebImageDownloader.m in Sources */,
 				B69B93E41C647236007E12EA /* UIImage+WebP.m in Sources */,
@@ -597,6 +665,8 @@
 				B69B93E31C647236007E12EA /* UIImage+MultiFormat.m in Sources */,
 				B69B93DE1C647236007E12EA /* SDWebImageDownloaderOperation.m in Sources */,
 				B651F04E1C635CB400117CF3 /* AppDelegate.m in Sources */,
+				B6BE24681CF3017B0064E797 /* DirectoryWatcher.m in Sources */,
+				B6BE245C1CF2EF8C0064E797 /* WSDocInteractionTableViewController.m in Sources */,
 				B69B93E11C647236007E12EA /* UIButton+WebCache.m in Sources */,
 				B69B93E01C647236007E12EA /* SDWebImagePrefetcher.m in Sources */,
 				B6018F261C7023DB00591838 /* FMResultSet.m in Sources */,
